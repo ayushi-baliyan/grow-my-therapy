@@ -1,36 +1,103 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Grow My Therapy – Frontend Developer Internship Assignment
 
-## Getting Started
+A responsive therapy practice homepage designed for the Grow My Therapy Frontend Developer Internship practical assignment.
 
-First, run the development server:
+## Live Website
 
-```bash
+Coming soon.
+
+## Project Overview
+
+This project is a redesigned therapy practice website based on the provided therapist profile of Dr. Maya Reynolds, PsyD.
+
+The design follows the overall structure and section flow of the reference therapy website while introducing a new visual theme, rewritten content, therapist profile, services, and a custom "Our Office" section.
+
+## Features
+
+- Responsive desktop and mobile design
+- Therapist profile and introduction
+- Hero section with therapist image
+- About section
+- Who I Work With section
+- Areas of Expertise
+- How We Work section
+- Three therapy services
+- Custom Our Office section
+- Appointment call-to-action
+- FAQ section
+- Responsive navigation and layouts
+
+## Services
+
+### Anxiety & Panic Therapy
+Support for adults experiencing anxiety, panic, overthinking, tension, and stress.
+
+### Trauma & EMDR Therapy
+Carefully paced trauma work focused on safety, stabilization, and regulation.
+
+### Burnout & Perfectionism
+Support for professionals, entrepreneurs, and creatives experiencing burnout and high internal pressure.
+
+## Therapist
+
+**Dr. Maya Reynolds, PsyD**
+
+Licensed Clinical Psychologist based in Santa Monica, California.
+
+Her approach integrates:
+
+- Cognitive Behavioral Therapy (CBT)
+- EMDR
+- Mindfulness-based practices
+- Body-oriented techniques
+
+## Office
+
+The website includes a custom "Our Office" section featuring the Santa Monica therapy space, office details, and provided office imagery.
+
+## Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- HTML
+- CSS
+
+## Project Structure
+
+```text
+grow-my-therapy/
+├── public/
+│   ├── maya.jpg
+│   ├── office-1.jpg
+│   └── office-2.jpg
+│
+├── src/
+│   └── app/
+│       ├── globals.css
+│       ├── layout.tsx
+│       └── page.tsx
+│
+├── package.json
+└── README.md
+Getting Started
+
+Clone the repository:
+git clone https://github.com/ayushi-baliyan/grow-my-therapy.git
+Install dependencies:
+npm install
+Run the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
+Responsive Design
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The website has been designed to work across desktop, tablet, and mobile screen sizes.
 
-## Learn More
+Assignment
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Created as part of the Grow My Therapy Frontend Developer Internship practical assignment.
